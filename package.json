@@ -1,0 +1,16 @@
+{
+  "name": "cypress-tests-study",
+  "version": "1.0.0",
+  "description": "E2E-tests to practice Cypress",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borovsska/cypress-tests-study.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^3.8.1"
+  },
+  "scripts": {
+    "cypress:open": "cypress open"
+  }
+}
