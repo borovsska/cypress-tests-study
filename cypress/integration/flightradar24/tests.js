@@ -83,7 +83,7 @@ describe('flightradar24 homepage tests', () => {
         cy.get('.ui-menu-item').eq(1).find('.route').should('have.text', 'Amsterdam (AMS) ⟶ New York (JFK)');
     });
 
-    it.only('should show no search results', () => {
+    it('should show no search results', () => {
         cy.server();
         cy.route('GET', '/v1/search/web/find**', {
             "results": [],

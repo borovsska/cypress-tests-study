@@ -15,7 +15,7 @@ describe('Douglas homepage tests', () => {
         });
     });
 
-    it.only('Shows search results', () => {
+    it('Shows search results', () => {
         cy.server();
         cy.route('GET', '/suggestBox*', '<div id="testResults">test</div>').as('searchRequest');
 
